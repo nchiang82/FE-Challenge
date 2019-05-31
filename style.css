@@ -30,7 +30,6 @@ h1{
 .content h2{
   font-size: 14px;
   font-weight: bold;
-  line-height: 1px;
   color: #8F8E94;
 }
 
@@ -58,7 +57,7 @@ nav {
 .arrow-left{
   height: 84px;
   padding-left: 20px;
-  padding-top: 33px;
+  padding-top: 37px;
   width: 20%;
   float: left;
   height: 80px;
@@ -70,7 +69,7 @@ nav h1 {
   font-size: 18px;
   font-weight: bold;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 35px;
   padding-right: 23%;
   color: black;
 }
@@ -80,7 +79,7 @@ nav h4 {
   font-weight: lighter;
   margin: 30px;
   padding-left: 11px;
-  padding-top: 3px;
+  padding-top: 9px;
   color: #007AFF;
   float: left;
 }
@@ -133,17 +132,17 @@ body { margin: 30px; }
 
 .arrow {
   text-align: right;
-  margin-top: 10px;
   width: 20%;
   float: right;
   color: #C8C7CC;
+  display: inline-block;
 }
 
 .content {
   padding-left: 15px;
   padding-right: 10px;
   width: 100%;
-  line-height: 10px;
+  display: inline-block;
 }
 
 .location:hover {
